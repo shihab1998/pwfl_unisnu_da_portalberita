@@ -22,13 +22,13 @@
   <div class="login-box-body">
     <p class="login-box-msg">Sign in Untuk Masuk</p>
 
-    <form action="<?php echo base_url('dashboard/dashboardku')?> " method="post">
+    <form action="<?php echo base_url('c_login/login')?> " method="post">
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
-        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+        <input type="text" name="login" class="form-control" placeholder="Username">
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password">
+        <input type="password" name="pass" class="form-control" placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
