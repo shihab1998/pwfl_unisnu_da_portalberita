@@ -49,7 +49,33 @@
             <li><a href="#">Sport</a></li>
             <li><a href="#">Entertiment</a></li>
             <li><a href="#">Otomotif</a></li>
-            <li><a href="#">Techno</a></li>            
+            <li><a href="#">Techno</a></li>          
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>Berita Provinsi</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">Sumatra Selatan</a></li>
+            <li><a href="#">Sumatra Barat</a></li>
+            <li><a href="#">Sumatra Selatan</a></li>
+            <li><a href="#">Lampung</a></li>
+            <li><a href="#">Jawa Barat</a></li>
+            <li><a href="#">Jawa Tengah</a></li>
+            <li><a href="#">Yogyakarta</a></li>
+            <li><a href="#">Jawa Timur</a></li>
+            <li><a href="#">Sulawesi Selatan</a></li>
+            <li><a href="#">Kalimantan Selatan</a></li>  
+            <li><a href="#">Kalimantan Timur</a></li>
+            <li><a href="#">Bali</a></li>
+            <li><a href="#">Aceh</a></li>
+            <li><a href="#">Kepulauan Riau</a></li>
+            <li><a href="#">Papua</a></li>  
+            <li><a href="#">Maluku</a></li>      
           </ul>
         </li>
       </ul>
