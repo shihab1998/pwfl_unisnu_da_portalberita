@@ -33,49 +33,16 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header"></li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
-        <li ><a href="#"><i class="fa fa-link"></i> <span>News</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Lihat Berita</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Tambah Berita</span></a></li>
-
+        <li class="active"><a href="<?php echo base_url('dashboard/') ?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Kategori Berita</span>
+          <a href="#"><i class="fa fa-files-o"></i> <span>Berita</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Travel</a></li>
-            <li><a href="#">Sport</a></li>
-            <li><a href="#">Entertiment</a></li>
-            <li><a href="#">Otomotif</a></li>
-            <li><a href="#">Techno</a></li>          
-          </ul>
-        </li>
-
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Berita Provinsi</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#">Sumatra Selatan</a></li>
-            <li><a href="#">Sumatra Barat</a></li>
-            <li><a href="#">Sumatra Selatan</a></li>
-            <li><a href="#">Lampung</a></li>
-            <li><a href="#">Jawa Barat</a></li>
-            <li><a href="#">Jawa Tengah</a></li>
-            <li><a href="#">Yogyakarta</a></li>
-            <li><a href="#">Jawa Timur</a></li>
-            <li><a href="#">Sulawesi Selatan</a></li>
-            <li><a href="#">Kalimantan Selatan</a></li>  
-            <li><a href="#">Kalimantan Timur</a></li>
-            <li><a href="#">Bali</a></li>
-            <li><a href="#">Aceh</a></li>
-            <li><a href="#">Kepulauan Riau</a></li>
-            <li><a href="#">Papua</a></li>  
-            <li><a href="#">Maluku</a></li>      
+            <li><a href="<?php echo base_url('dashboard/tambahberita') ?>"><i class="fa fa-circle-o"></i> <span>Tambah Berita</span></a></li>
+            <li><a href="<?php echo base_url('dashboard/lihatberita') ?>"><i class="fa fa-circle-o"></i> <span>Lihat Berita</span></a></li>          
           </ul>
         </li>
       </ul>
